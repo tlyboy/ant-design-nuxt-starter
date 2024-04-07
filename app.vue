@@ -16,7 +16,7 @@ useHead({
 </script>
 
 <template>
-  <a-config-provider
+  <AConfigProvider
     :theme="{
       token: {
         colorPrimary: '#3498db',
@@ -29,5 +29,5 @@ useHead({
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-  </a-config-provider>
+  </AConfigProvider>
 </template>
